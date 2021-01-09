@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_game_overview"
+            android:icon="@drawable/ic_games"
+            android:title="@string/menu_game_overview" />
+
+        <item
+            android:id="@+id/nav_active_games"
+            android:icon="@drawable/ic_games"
+            android:title="@string/menu_active_games" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_ranking"
+            android:title="@string/menu_ranking" />
+    </group>
+</menu>
